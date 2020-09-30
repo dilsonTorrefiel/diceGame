@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <!-- inserting external CSS style sheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!-- inserting link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Parent container -->
+    <div class="container">
+      <h1>Refresh Me</h1>
+
+      <!-- child container -->
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images\dice6.png">
+      </div>
+
+      <!-- child container -->
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images\dice6.png">
+      </div>
+    </div>
+
+    <div class="refresh">
+      <button onClick="window.location.reload();"  class="btn btn-block btn-lg btn-outline-info">Play Again</Play></button>
+    </div>
+
+  </body>
+
+  <footer>
+    <!-- inserting external javascript code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+    https://dilsontorrefiel.github.io/diceGame/
+  </footer>
+</html>
